@@ -3,15 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <script src="./scripts/" type="text/javascript" defer></script>
     <title>Netflix</title>
 </head>
 <body>
     <header class="header-container">
-        <img src="./img/logo.png" alt="Logotipo Netflix">
-        <a href="#">Início</a>
-        <a href="#">Séries</a>
-        <a href="#">Filmes</a>
-        <a href="#">Documentários</a>
+        <img src="./img/logo.png" alt="Logotipo Netflix" class="logo">
+        <nav class="navbar">
+            <a href="#">Início</a>
+            <a href="#">Séries</a>
+            <a href="#">Filmes</a>
+            <a href="#">Documentários</a>
+        </nav>
     </header>
+
+    <main>
+        <div class="main-serie">
+            <div class="container">
+                <h3 class="title">O Gambito da Rainha</h3>
+                <p class="synopsis">Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.</p>
+                
+                <div class="main-buttons">
+                    <button role="button" class="button">Assistir agora</button>
+                    <button role="button" class="button">Mais informações</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 </html>
