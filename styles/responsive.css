@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-serie {
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-buttons {
+        width: 80.7vw;
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+    }
+
+    .main-serie .synopsis {
+        width: 80%;
+    }
+
+    .button {
+        margin-top: 5px;
+        width: 80vw;
+        height: 45px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .synopsis {
+        width: 50%;
+    }
+}

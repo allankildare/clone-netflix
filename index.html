@@ -5,7 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+
+    <!-- scripts -->
     <script src="./scripts/" type="text/javascript" defer></script>
+    <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script>
+    
+    <!-- owl js -->
+    <script src="scripts/owl/jquery.min.js" type="text/javascript" defer></script>
+    <script src="scripts/owl/owl.carousel.min.js" type="text/javascript" defer></script>
+    <script src="scripts/owl/setup.js" type="text/javascript" defer></script>
+
+    <!-- owl css-->
+    <link rel="stylesheet" href="styles/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="styles/owl/owl.theme.default.min.css">
+
     <title>Netflix</title>
 </head>
 <body>
@@ -15,7 +30,8 @@
             <a href="#">Início</a>
             <a href="#">Séries</a>
             <a href="#">Filmes</a>
-            <a href="#">Documentários</a>
+            <a href="#">Mais recentes</a>
+            <a href="#">Minha lista</a>
         </nav>
     </header>
 
@@ -26,11 +42,63 @@
                 <p class="synopsis">Durante a Guerra Fria, em um orfanato do Kentucky, uma garota prodígio do xadrez luta contra o vício para se tornar a número um do mundo.</p>
                 
                 <div class="main-buttons">
-                    <button role="button" class="button">Assistir agora</button>
-                    <button role="button" class="button">Mais informações</button>
+                    <button role="button" class="button">
+                        <i class="fas fa-play"></i>
+                        Assistir agora
+                    </button>
+
+                    <button role="button" class="button">
+                        <i class="fas fa-info-circle"></i>
+                        Mais informações
+                    </button>
                 </div>
             </div>
         </div>
     </main>
+
+    <div class="movies-carousel">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="owl-carousel owl-theme">
+            <div class="movie-box">
+            <div class="item">
+                <img src="img/miniaturas/miniatura-o-gambito-da-rainha.jpg" alt="">
+            </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-o-pianista.jpg" alt="">
+                </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-la-casa-de-papel.jpg" alt="">
+                </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-senhor-dos-aneis.jpg" alt="">
+                </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-flash.jpg" alt="">
+                </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-coringa.jpg" alt="">
+                </div>
+            </div>
+            <div class="movie-box">
+                <div class="item">
+                    <img src="img/miniaturas/miniatura-forrest-gump.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
